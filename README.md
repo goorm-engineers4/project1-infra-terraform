@@ -1,5 +1,3 @@
-![AWS Architecture](architecture.png)
-
 # 📦 Terraform AWS Infrastructure (VPC, Bastion, App EC2)
 > AWS에 CI/CD가 가능한 네트워크 인프라(VPC, Public/Private Subnet, Bastion, App Server) 구축용 테라폼 코드
 
@@ -92,3 +90,6 @@ terraform validate	코드 문법 및 구성체크
    |----> AWS Console       |----> NAT Gateway/Internet Gateway
 (CI/CD 및 GitHub Actions → DockerHub → Bastion → App 서버로 배포)
 ```
+![AWS Architecture](architecture.png)
+
+
