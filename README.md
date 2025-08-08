@@ -90,6 +90,6 @@ terraform validate	코드 문법 및 구성체크
    |----> AWS Console       |----> NAT Gateway/Internet Gateway
 (CI/CD 및 GitHub Actions → DockerHub → Bastion → App 서버로 배포)
 ```
-![AWS Architecture](architecture.png)
+![AWS Architecture](architecture-1.png)
 
 
